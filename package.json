@@ -14,6 +14,7 @@
     "deploy": "gh-pages -d dist -b gh-pages -r https://github.com/kwelch/family-feud-game.git"
   },
   "dependencies": {
+    "glamor": "^2.20.40",
     "glamorous": "^4.12.4",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",

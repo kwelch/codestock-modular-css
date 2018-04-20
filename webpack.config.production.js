@@ -32,7 +32,7 @@ module.exports = () => ({
         test: /\.css$/,
         use: [
           'style-loader',
-          'css-loader',
+          'css-loader?modules&localIdentName=_[hash:base64:63]',
         ],
       },
     ],

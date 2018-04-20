@@ -44,9 +44,10 @@ module.exports = () => ({
       },
       {
         test: /\.css$/,
+        exludes: ['node_modules'],
         use: [
           'style-loader',
-          'css-loader',
+          'css-loader?modules&localIdentName=[name]__[local]___[hash:base64:5]',
         ],
       },
     ],
