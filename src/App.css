@@ -1,0 +1,13 @@
+body {
+  background-color: #3a3a3a;
+}
+
+.container {
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-size: 4rem;
+  color: #39C2C9
+}
