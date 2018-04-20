@@ -14,8 +14,10 @@
     "deploy": "gh-pages -d dist -b gh-pages -r https://github.com/kwelch/family-feud-game.git"
   },
   "dependencies": {
+    "glamorous": "^4.12.4",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "styled-components": "^3.2.6"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
@@ -29,6 +31,7 @@
     "babel-preset-react": "^6.23.0",
     "babel-preset-stage-2": "^6.22.0",
     "cross-env": "^5.0.0",
+    "css-loader": "^0.28.11",
     "eslint": "^4.3.0",
     "eslint-loader": "^1.9.0",
     "eslint-plugin-babel": "^4.1.1",
@@ -41,6 +44,7 @@
     "jest-cli": "^20.0.4",
     "react-hot-loader": "^3.0.0-beta.7",
     "rimraf": "^2.6.1",
+    "style-loader": "^0.21.0",
     "webpack": "^3.4.1",
     "webpack-dev-server": "^2.4.2"
   }
