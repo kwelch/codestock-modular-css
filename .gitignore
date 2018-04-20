@@ -1,0 +1,6 @@
+#dependency directories
+##node
+node_modules/
+##nuget
+packages/
+.cache-loader/
